@@ -1,0 +1,14 @@
+{
+  "name": "grunt-task-support",
+  "version": "0.0.1",
+  "description": "npm packages for bundling app",
+  "main": ".#Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-electron-installer": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
