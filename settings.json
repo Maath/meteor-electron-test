@@ -8,6 +8,12 @@
        "arch": "x64"},
       {"platform": "win32",
        "arch": "ia32"}
-    ]
+    ],
+    "downloadUrl": {
+      "osx": "http://www.example.com",
+      "win32": "http://www.example.com"
+    },
+
+    "windowsDownloadURLPrefix": "http://localhost:3000/windowsDownloads"
   }
 }
