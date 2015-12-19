@@ -9,11 +9,11 @@ module.exports = function(grunt) {
         exe: 'mixmax.exe',
         productName: "MixMax",
         certificateFile: "C:\\Users\\Michael\\Desktop\\MixmaxWindowsCodesigningCertificate.p12",
-//        remoteReleases: "http://104.131.109.93:8000/installer64/"
+        remoteReleases: "http://localhost:3000/app/latest"
       }
     }
-  });
-
+  })
+;
   grunt.loadNpmTasks('grunt-electron-installer')
   grunt.registerTask('default', ['create-windows-installer']);
 };
